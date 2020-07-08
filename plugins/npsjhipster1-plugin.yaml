@@ -5,7 +5,7 @@ metadata:
 spec:
   image: nathanshaw/npsjhipster-1:0.0.2-SNAPSHOT
   replicas: 1
-  dbms: mysql
+  dbms: postgresql
   parameters: {}
   ingressPath: "/npsjhipster1"
   healthCheckPath: "/management/health"
